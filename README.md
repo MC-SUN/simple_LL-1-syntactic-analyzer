@@ -13,10 +13,10 @@ Practice compiler theory courses: design, compile and debug an LL(1) parser, use
 ## Others
 1. Adjust {:10s}{:20s} when the length of the input string is greater than 7
 2. Remove direct left recursion
-3. epsilon=="ε"  
-1、当输入字符串长度大于7时，调整{:10s}{:20s}
-2、去除直接左递归
-3、epsilon=="ε" 
+3. epsilon=="ε"   
+1、当输入字符串长度大于7时，调整{:10s}{:20s}   
+2、去除直接左递归    
+3、epsilon=="ε"    
 # Example
 ## test data: G = {"E": "E+T|ε|T", "T": "T*F|F", "F": "(E)|i"}
 ![image](https://github.com/MC-SUN/simple_LL-1-syntactic-analyzer/blob/master/example/1.png)
